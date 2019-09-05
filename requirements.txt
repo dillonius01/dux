@@ -1,0 +1,6 @@
+Requirements
+
+// take duck input
+// verify valid input
+// evaluate steps
+// print 
