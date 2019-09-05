@@ -4,3 +4,11 @@ Requirements
 // verify valid input
 // evaluate steps
 // print 
+
+
+1. module that takes string input and returns duck position and commands to execute
+input: string args
+
+a. loader module to get a line of input
+b. parser module to take that input and return correct data structure
+output: {:ok, %Duck{}}, duck has %Position and %Commands; | {:error, any()}
