@@ -7,9 +7,8 @@ defmodule Dux.InputParserTest do
     raw_input = "5 5"
 
     actual = InputParser.parse_duck_position(raw_input)
-    expected = %Duck{x: 5, y: 5}
 
-    assert match?({:ok, %Duck{}}, actual)
+    assert match?({:ok, %{x: 5, y: 5}}, actual)
   end
 
   test "returns error tuple if bad input" do
